@@ -1,0 +1,167 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Responsive Website || About Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/custom.css" rel="stylesheet">
+   
+    
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    
+    <script src="js/respond.js"></script>
+</head>
+
+<body>
+
+<div class="container">
+	
+    <!-- row 1: navigation -->
+    <div class="row">
+        <nav class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="collapse">
+            	<ul class="nav navbar-nav">
+                	<li ><a href="index.html">Home</a></li>
+                	<li class="active"><a href="about.html">About</a></li>
+                    <li><a href="#">Store</a></li>
+                	<li><a href="#">Gallery</a></li>
+                	<li><a href="#">Contact</a></li>  
+                </ul>
+            </div>  
+        </nav>
+    </div>
+   
+    <!-- row 2: header -->
+    <header class="row">
+    	<div class="col-lg-6 col-sm-5">
+        	<a href="index.html"><img src="img/logo.png" class="img-responsive gotlogo"></a>
+        </div>
+    	<div class="col-lg-6 col-sm-7">
+        	<img src="img/banner.jpg" class="img-responsive bannerad">
+        </div>
+    </header>
+    
+    
+    <!-- row 3: about page content -->
+    
+            <h1>Game Of Thrones</h1>
+            <p><img src="img/ned.jpg" class="img-responsive img-thumbnail pull-right">Game of Thrones is an American fantasy drama television series created by David Benioff and D. B. Weiss. It is an adaptation of A Song of Ice and Fire, George R. R. Martin's series of fantasy novels, the first of which is A Game of Thrones. Set on the fictional continents of Westeros and Essos, Game of Thrones has several plot lines and a large ensemble cast but centers on three primary story arcs. The first story arc centers on the Iron Throne of the Seven Kingdoms and follows a web of alliances and conflicts among the dynastic noble families either vying to claim the throne or fighting for independence from the throne. The second story arc focuses on the last descendant of the realm's deposed ruling dynasty, exiled and plotting a return to the throne. The third story arc centers on the longstanding brotherhood charged with defending the realm against the ancient threats of the fierce peoples and legendary creatures that lie far north, and an impending winter that threatens the realm.</p> <br />
+            
+            <div class="table-responsive">
+              <table class="table table-bordered table-hover">
+                <thead>
+                  <tr class="danger">
+                    <th>Character</th>
+                    <th>Family </th>
+                    <th>Father</th>
+                    <th>Status</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="danger">
+                    <td>Eddard Stark</td>
+                    <td>Stark</td>
+                    <td>Rickard Stark</td>
+                    <td>Dead</td>
+                  </tr>
+                  <tr class="danger">
+                    <td>Joffrey Baratheon</td>
+                    <td>Lannister</td>
+                    <td>Jaime Lannister</td>
+                    <td>Dead</td>
+                  </tr>
+                  <tr class="danger">
+                    <td>Gendry Waters</td>
+                    <td>Baratheon</td>
+                    <td>Robert Baratheon</td>
+                    <td>Alive</td>
+                  </tr>
+                </tbody>
+              </table>
+          </div><br />
+                       
+            
+          <!-- list navigation for tabs -->
+          <ul class="nav nav-tabs">
+              <li><a href="#merchandise" data-toggle="tab"><span class="glyphicon glyphicon-sunglasses"> </span> Merchandise</a></li>
+              <li><a href="#wiki" data-toggle="tab"><span class="glyphicon glyphicon-education"> </span>Wiki</a></li>
+              <li><a href="#reviews" data-toggle="tab"><span class="glyphicon glyphicon-list-alt"> </span>Reviews</a></li>
+              <li><a href="#cast" data-toggle="tab"><span class="glyphicon glyphicon-user"> </span>Cast</a></li>
+          </ul>
+            
+            
+        	 <!-- Tab content -->
+       		 <div class="tab-content">
+        
+       		   <!-- Merchandise -->
+                <div class="tab-pane fade in active" id="merchandise">
+                 <p><a href="img/merch.jpg" data-toggle="lightbox" data-title="Merchandise"><img src="img/merch.jpg" class="pull-left img1"></a>Buy Game of Thrones merchandise! Dress up as your favourite characters!</p>
+                 <p><a href="#" class="btn btn-danger btn-sm">Read more >></a></p>
+                </div>
+        
+                 <!-- Wiki -->
+                <div class="tab-pane fade" id="wiki">
+                 <p><a href="img/wiki.png" data-toggle="lightbox" data-title="Wiki"><img src="img/wiki.png" class="pull-left img2"></a>Want to know more about Game of Thrones? Head on over to the Game of Thrones wiki! </p>
+                 <p><a href="#" class="btn btn-danger btn-sm">Read more >></a></p>
+                </div>
+        
+                 <!-- Reviews -->
+                <div class="tab-pane fade" id="reviews">
+                 <p><a href="img/reviews.jpg" data-toggle="lightbox" data-title="Reviews"><img src="img/reviews.jpg" class="pull-left img3"></a>Can't decide whether or not you want to watch Game of Thrones? Read reviews to make up your mind. </p>
+                 <p><a href="#" class="btn btn-danger btn-sm">Read more >></a></p>
+                </div>
+    
+             <!-- Cast -->
+                <div class="tab-pane fade" id="cast">
+                 <p><a href="img/cast.jpg" data-toggle="lightbox" data-title="Cast"><img src="img/cast.jpg" class="pull-left img4"></a> Interested in who is playing whom? Find out all about the cast and set gossip!</p>
+                 <p><a href="#" class="btn btn-danger btn-sm">Read more >></a></p>
+                </div>
+                
+        </div><!-- end tab content -->
+            
+      </article>
+        
+    
+
+        </div><!-- end row 3 -->
+    
+    <!-- row 4 -->
+     <footer class="row">
+        <p>
+            <small>
+            This is not a real website -- it was built for education purposes only.	            </small>
+            <br />
+            <small>Privacy Policy | Terms of Use</small>
+        </p>
+    </footer>
+
+</div> <!-- end container -->
+
+<!-- javascript -->
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    
+    <!-- linking JavaScript file necessary for lightbox in tabs -->
+    <script src="js/ekko-lightbox.js"></script>
+
+    <!-- Embedded JavaScript for successful lightbox operation -->
+    <script type="text/javascript">
+            $(document).ready(function ($) {
+				$(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) {
+					event.preventDefault();
+					return $(this).ekkoLightbox();
+				});
+			});
+    </script>
+    
+</body>
+</html>
